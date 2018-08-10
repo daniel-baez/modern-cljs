@@ -4,9 +4,5 @@
 ;; enable cljs to print to the JS console of the browser
 (enable-console-print!)
 
-;; print to the console
-(dotimes [it 20]
-  (println "Hola Daniel" it))
+(println "Hola Daniel")
 
-(dotimes [it 20]
-  (println "Hola Federico" it))
