@@ -3,6 +3,3 @@
 
 ;; enable cljs to print to the JS console of the browser
 (enable-console-print!)
-
-(println "Hola Daniel")
-
