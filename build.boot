@@ -16,6 +16,14 @@
          '[adzerk.boot-cljs-repl :refer [cljs-repl start-repl]]
          '[pandeiro.boot-http :refer [serve]]) ;; make serve task visible)
 
+;; tarea de ejemplo para correr scripts en sh
+;; (deftask hola
+;;   "Saluda"
+;;   []
+;;   (with-pre-wrap fileset
+;;     (sh "echo" "hola")
+;;     fileset))
+
 (deftask dev
   "Launch Immediate Feedback Development Environment"
   []
